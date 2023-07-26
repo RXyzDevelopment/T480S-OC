@@ -6,7 +6,7 @@
 | GPU       | Intel UHD Graphics 620               |
 | SSD       | Samsung 980 500GB M.2 NVMe SSD       |
 | Memory    | 8GB DDR4 2400Mhz                     |
-| Camera    | 720p Camera                          |
+| Camera    | 720p Camera and IR Camera                        |
 | WiFi & BT | Intel AC-8265                        |
 
 # To do fix
@@ -16,7 +16,7 @@
 - Maybe more?
 
 # Compatibility?
-Ventura 13.4.1 and maybe Sonoma?
+Ventura 13.4.1 and maybe even Sonoma?
 
 # iMessage note
 For privacy concern: I wiped my Serial Number, please generate your own.
@@ -25,6 +25,7 @@ For how-to, please read: https://dortania.github.io/OpenCore-Install-Guide/confi
 # Note!
 - For sleeping, you have to press power button to wake it from sleep.
 - This is only for Intel WiFI Card (AC-8265 in this case)
+- It's important to note that the touchscreen on macOS is a bit clunky, best to disable it if you don't really use touchscreen.
 
 # What's Working
 - WiFI (Intel AC-8265)
@@ -46,9 +47,9 @@ For how-to, please read: https://dortania.github.io/OpenCore-Install-Guide/confi
 - Maybe more(?)
   
 # Untested
-- WWAN
-- Ethernet
-- Thunderbolt 3
+- WWAN (no WWAN Module)
+- Ethernet (no Ethernet cable to test)
+- Thunderbolt 3 (no ThunderBolt device-capable to test)
 - Lot of stuff I don't bother to test
 
 # Screenshot
