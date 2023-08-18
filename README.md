@@ -12,7 +12,6 @@
 # To do fix
 - Not booting sometimes and require a force restart (may related to BTPatcher)
 - WhatsApp (App Store) sometimes flicker
-- Fixing webcam (probably remapping USB will do the trick)
 - Maybe more?
 
 # Compatibility?
@@ -39,16 +38,16 @@ For how-to, please read: https://dortania.github.io/OpenCore-Install-Guide/confi
 - Brightness
 - Graphic Acceleration
 - Touchscreen (If you have Touch Screen variant, please download VoodooI2CELAN Kext seperately)
+- BlueTooth (Remapped fixed it)
+- Webcam (Same thing as above) 
 
 # Not working (Sonoma)
 - Fingerprint (Touch ID)
 - IR Camera (Face ID)
-- Bluetooth
 - Maybe more(?)
 
 # Borked 
 - HDMI output (color messed up) (Ventura and Sonoma)
-- Webcam (Not detected in any mean)
 
 # Untested
 - WWAN (no WWAN Module)
