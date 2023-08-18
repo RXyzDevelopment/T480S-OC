@@ -9,6 +9,8 @@
 | Camera    | 720p Camera and IR Camera                        |
 | WiFi & BT | Intel AC-8265                        |
 
+# Sonoma EFI out now! Check the other branch!
+
 # To do fix
 - Not booting sometimes and require a force restart (may related to BTPatcher)
 - ~~WhatsApp (App Store) sometimes flicker~~ fixed with igfxrpsc boot-args
