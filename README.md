@@ -11,12 +11,12 @@
 
 # To do fix
 - Not booting sometimes and require a force restart (may related to BTPatcher)
-- ~~WhatsApp (App Store) sometimes flicker~~ fixed with igfxrpsc boot-args
-- Hotspot from my phone (This is probably my own issue with my phone, yours may be fine.) 
+- WhatsApp (App Store) sometimes flicker
+- Fixing webcam (probably remapping USB will do the trick)
 - Maybe more?
 
 # Compatibility?
-Ventura 13.4.1 and maybe even Sonoma?
+Sonoma 14.0 (23A5312d)
 
 # iMessage note
 For privacy concern: I wiped my Serial Number, please generate your own.
@@ -39,13 +39,17 @@ For how-to, please read: https://dortania.github.io/OpenCore-Install-Guide/confi
 - Brightness
 - Graphic Acceleration
 - Touchscreen (If you have Touch Screen variant, please download VoodooI2CELAN Kext seperately)
-- HDMI
 
-# Not working
+# Not working (Sonoma)
 - Fingerprint (Touch ID)
 - IR Camera (Face ID)
+- Bluetooth
 - Maybe more(?)
-  
+
+# Borked 
+- HDMI output (color messed up) (Ventura and Sonoma)
+- Webcam (Not detected in any mean)
+
 # Untested
 - WWAN (no WWAN Module)
 - Ethernet (no Ethernet cable to test)
@@ -53,10 +57,7 @@ For how-to, please read: https://dortania.github.io/OpenCore-Install-Guide/confi
 - Lot of stuff I don't bother to test
 
 # Screenshot
-![image](https://github.com/RXyzDevelopment/T480S-OC/assets/68800628/6497894a-33d4-4bf5-9d86-26e8537c26dc)
-![image](https://github.com/RXyzDevelopment/T480S-OC/assets/68800628/b3aa43fd-eaab-419f-924b-2cbe6bd2ef9b)
-![image](https://github.com/RXyzDevelopment/T480S-OC/assets/68800628/5fd50275-fa35-43e9-b6d6-ff1a9024f157)
-
+- TBD, screenshot soon
 
 # Credit
     Thanks to Acidanthera for providing AppleALC, BrcmPatchRAM, HibernationFixup, Lilu, NVMeFix, OcBinaryData, OpenCorePkg, RestrictEvents, VirtualSMC, VoodooInput, VoodooPS2, and WhateverGreen
