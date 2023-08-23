@@ -8,6 +8,7 @@
 | Memory    | 8GB DDR4 2400Mhz                     |
 | Camera    | 720p Camera and IR Camera                        |
 | WiFi & BT | Intel AC-8265                        |
+| Sound Card | Realtek ALC257                        |
 
 # To do fix
 - Not booting sometimes and require a force restart (may related to BTPatcher)
