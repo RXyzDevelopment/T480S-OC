@@ -5,7 +5,7 @@
 | CPU       | Intel Core i5-8350U (Kaby Lake Refresh)                |
 | GPU       | Intel UHD Graphics 620               |
 | SSD       | Samsung 980 500GB M.2 NVMe SSD       |
-| Memory    | 8GB DDR4 2400Mhz                     |
+| Memory    | 16GB DDR4 2400Mhz                     |
 | Camera    | 720p Camera and IR Camera                        |
 | WiFi & BT | Intel AC-8265                        |
 | Sound Card | Realtek ALC257                        |
@@ -26,6 +26,7 @@ For how-to, please read: https://dortania.github.io/OpenCore-Install-Guide/confi
 - For sleeping, you have to press power button to wake it from sleep.
 - This is only for Intel WiFI Card (AC-8265 in this case)
 - It's important to note that the touchscreen on macOS is a bit clunky, best to disable it if you don't really use touchscreen.
+- I disabled macOS Update, disable BlackListAppleUpdate in EFI to get Apple Update.
 
 # What's Working
 - WiFI (Intel AC-8265)
@@ -40,7 +41,8 @@ For how-to, please read: https://dortania.github.io/OpenCore-Install-Guide/confi
 - Graphic Acceleration
 - Touchscreen (If you have Touch Screen variant, please download VoodooI2CELAN Kext seperately)
 - BlueTooth (Remapped fixed it)
-- Webcam (Same thing as above) 
+- Webcam (Same thing as above)
+- Microphone (Never noticed it was dead)
 
 # Not working (Sonoma)
 - Fingerprint (Touch ID)
@@ -57,7 +59,9 @@ For how-to, please read: https://dortania.github.io/OpenCore-Install-Guide/confi
 - Lot of stuff I don't bother to test
 
 # Screenshot
-- TBD, screenshot soon
+- ![image](https://github.com/RXyzDevelopment/T480S-OC/assets/68800628/df8be16a-df28-46b4-b1ff-9630a091ddba)
+- ![telegram-cloud-photo-size-5-6305574043289500270-y](https://github.com/RXyzDevelopment/T480S-OC/assets/68800628/4cddf286-ea1a-43fe-854a-350640a6069b)
+-
 
 # Credit
     Thanks to Acidanthera for providing AppleALC, BrcmPatchRAM, HibernationFixup, Lilu, NVMeFix, OcBinaryData, OpenCorePkg, RestrictEvents, VirtualSMC, VoodooInput, VoodooPS2, and WhateverGreen
