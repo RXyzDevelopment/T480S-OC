@@ -10,6 +10,13 @@
 | WiFi & BT | Intel AC-8265                        |
 | Sound Card | Realtek ALC257                        |
 
+UPDATE:
+Holy fuck, I just got access to my account again xD
+But anyway, I'm going to say this. This repository is UNMAINTAINED, I sold my Laptop, and now I use 2012 MacBook Pro (don't judge me, money is tight), so.. I won't update this repository.
+You may use this as a base for your Hackintosh in T480S, but ONLY if you know what you're doing. (think of it as a get started quickly for Hackintosh veteran)
+
+BTW, HDMI is fixable, you just have to look at OpenCore Patcher wiki.
+
 # To do fix
 - Not booting sometimes and require a force restart (may related to BTPatcher)
 - WhatsApp (App Store) sometimes flicker
